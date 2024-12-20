@@ -1,0 +1,5 @@
+Tình huống trong phương thức playMedia()
+Phương thức này có thể ném ra UserException nếu xảy ra lỗi trong khi phát một CompactDisc hoặc DigitalVideoDisc.
+Khi ngoại lệ UserException được ném ra:
+Ngoại lệ không được xử lý, và chương trình cũng sẽ dừng hoạt động trong thread xử lý sự kiện của Swing.
+Hậu quả: Người dùng không nhận được bất kỳ thông báo nào để hiểu lỗi đã xảy ra. Giao diện có thể bị gián đoạn.
